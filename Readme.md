@@ -1,5 +1,9 @@
 # Websocket key value project
 
+## setup
+
+To set this project up, make sure to use `ruby 2.5.1` and then run `bundle install`
+
 ## running in development
 To execute the server, first create a test database from the `setup.sql` file, then execute `DATABASE_URL=your_developmen_url bundle exec puma config.ru -p9292`
 
